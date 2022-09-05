@@ -1,23 +1,9 @@
-<p align="center">
-  <img src="assets/AJAX.png" alt="Ajax-Extra-FeaturesLogo">
-</p>
-<h1 align="center">
-  <b>𝙰𝙹𝙰𝚇-𝙴𝚇𝚃𝚁𝙰-𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂</b>
-</h1>
+# Telegram Movie Bot
 
-<a href="https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA">
-  <img src="https://img.shields.io/badge/𝚂𝚄𝙱𝚂𝙲𝚁𝙸𝙱𝙴-black?logo=youtube" width="150">
-
-
-[![Stars](https://img.shields.io/github/stars/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/stargazers)
-[![Forks](https://img.shields.io/github/forks/Aadhi000/Ajax-Extra-Features?style=flat-square&color=blue)](https://github.com/Aadhi000/Ajax-Extra-Features/fork)
-[![Size](https://img.shields.io/github/repo-size/Aadhi000/Ajax-Extra-Features?style=flat-square&color=red)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Open Source happy ](https://badges.frapsoft.com/os/v2/open-source.svg?v=103)](https://github.com/Aadhi000/Ajax-Extra-Features)   
-[![Contributors](https://img.shields.io/github/contributors/Aadhi000/Ajax-Extra-Features?style=flat-square&color=green)](https://github.com/Aadhi000/Ajax-Extra-Features/graphs/contributors)
 ## Features
 
 - [x] Auto Filter
-- [x] Manual Filter
+- [x] Manuel Filter
 - [x] IMDB
 - [x] Admin Commands
 - [x] Broadcast
@@ -28,15 +14,7 @@
 - [x] ids and User info 
 - [x] Stats, Users, Chats, Ban, Unban, Leave, Disable, Channel
 - [x] Spelling Check Feature
-- [x] Youtube Video , Song , Thumbnail Download.
-- [x] Image Edit.
-- [x] Google Translator.
-- [x] Telegraph
-- [x] Entertainment
-- [x] Sticker ID Generator
-- [x] COVID Information
 - [x] File Store
-- [X] Image Editor
 
 ## Variables
 
@@ -46,33 +24,62 @@
 * `API_HASH`: Get this value from [telegram.org](https://my.telegram.org/apps)
 * `CHANNELS`: Username or ID of channel or group. Separate multiple IDs by space
 * `ADMINS`: Username or ID of Admin. Separate multiple Admins by space
-* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com).
-* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this 
+* `DATABASE_URI`: [mongoDB](https://www.mongodb.com) URI. Get this value from [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
+* `DATABASE_NAME`: Name of the database in [mongoDB](https://www.mongodb.com). For more help watch this [video](https://youtu.be/nj-lJfkgb6w)
 * `LOG_CHANNEL` : A channel to log the activities of bot. Make sure bot is an admin in the channel.
-* `SUPPORT_CHAT` : @MWUpdatez
-* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used seperated by space )
 ### Optional Variables
+* `IMDB`: Imdb, the view of information when making True/False.
+* `SINGLE_BUTTON`: choose b/w [single or double buttons](https://github.com/josprojects/tgmoviebot/issues/1) True/False.
+
+## larger result buttons
+larger results will be better for reading.
+
+at now:
+![139601786-7af37bab-549d-4f96-a65f-96e2d09b5ce0](https://user-images.githubusercontent.com/77600757/143565765-cced52c4-45f6-40e2-bfbf-2e2efd6f811f.png)
+
+add optional larger result buttons:
+![139601808-04b7726e-3e58-48a1-bb1a-d946f1d3fdcd](https://user-images.githubusercontent.com/77600757/143565860-4797e96f-5a3c-4acd-8484-6fb6a2c99bbc.png)
+* `P_TTI_SHOW_OFF`: Customize Result Buttons to Callback or Url by (True = url / False = callback).
+* `PICS`: Telegraph links of images to show in start message.( Multiple images can be used separated by space )
+* `FILE_STORE_CHANNEL`: Channel from were file store links of posts should be made. Separate multiple IDs by space
+* Check [info.py](info.py) for more
 
 ## Deploy
 You can deploy this bot anywhere.
 
-
-<summary>Deploy To Heroku</summary>
-<br>
+<details><summary>Deploy to Heroku</summary>
 <p>
-<a href="https://heroku.com/deploy?template=https://github.com/Aadhi000/Ajax-Extra-Features">
+<br>
+<a href="https://telegram.dog/XTZ_HerokuBot?start=am9zcHJvamVjdHMvdGdtb3ZpZWJvdCBtYXN0ZXI">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+
+<a href="https://youtu.be/DFJxT7nUh10"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Heroku-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/DFJxT7nUh10"><img src="https://img.shields.io/youtube/views/DFJxT7nUh10?style=social">
+</a>
+</p>
+</details>
+
+<details>
+  <summary><b>Deploy to Railway</b></summary>
+<br/>
+
+<p align="left">
+<a href="https://railway.app/new/template?template=https%3A%2F%2Fgithub.com%2Fjosprojects%2Ftgmoviebot"
+">
+     <img height="30px" src="https://railway.app/button.svg">
+  </a>
+</p>
+<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/badge/How%20to%20Deploy%20on%20Railway-blue.svg?logo=Youtube"></a>
+<a href="https://youtu.be/h6PtzFYaMxQ"><img src="https://img.shields.io/youtube/views/h6PtzFYaMxQ?style=social">
 </a>
 </p>
 
-<a href="https://youtu.be/kB9TkCs8cX0">
-  <img src="https://img.shields.io/badge/How%20to-Deploy-red?logo=youtube" width="147">
-</a><br>
+</details>
 
-<details><summary>Deploy To VPS</summary>
+<details><summary>Deploy to VPS</summary>
 <p>
 <pre>
-git clone https://github.com/Aadhi000/Ajax-Extra-Features
+git clone https://github.com/josprojects/tgmoviebot
 # Install Packages
 pip3 install -r requirements.txt
 Edit info.py with variables as given below then run bot
@@ -82,10 +89,10 @@ python3 bot.py
 </details>
 
 
-## Commands
+## Admin commands
 ```
-* /logs - to get the rescent errors
-* /stats - to get status of files in db.
+• /logs - to get the rescent errors
+• /stats - to get status of files in db.
 * /filter - add manual filters
 * /filters - view filters
 * /connect - connect to PM.
@@ -94,22 +101,37 @@ python3 bot.py
 * /delall - delete all filters
 * /deleteall - delete all index(autofilter)
 * /delete - delete a specific file from index.
+* /batch - to create link for multiple posts
+* /link - to create link for one post
 * /info - get user info
 * /id - get tg ids.
-* /video - Download Video
-* /song - Download Song
 * /imdb - fetch info from imdb.
-* /users - to get list of my users and ids.
-* /chats - to get list of the my chats and ids 
-* /index  - to add files from a channel
-* /leave  - to leave from a chat.
-* /disable  -  do disable a chat.
+• /users - to get list of my users and ids.
+• /chats - to get list of the my chats and ids 
+• /index - to add files from a channel
+• /leave - to leave from a chat.
+• /disable - do disable a chat.
 * /enable - re-enable chat.
-* /ban  - to ban a user.
-* /unban  - to unban a user.
-* /channel - to get list of total connected channels
-* /broadcast - to broadcast a message to all Ajax users
+• /ban_users - to ban a user.
+• /unban_users - to unban a user.
+• /channel - to get list of total connected channels
+• /broadcast - to broadcast a message to all Eva Maria users
 ```
+## Support
+[![telegram badge](https://img.shields.io/badge/Telegram-Group-30302f?style=flat&logo=telegram)](https://telegram.dog/GTMoviesNetwork)
+[![telegram badge](https://img.shields.io/badge/Telegram-Channel-30302f?style=flat&logo=telegram)](https://telegram.dog/GTCinematicUniverse)
 
-<b>ᴅᴇᴠᴇʟᴏᴘᴇʀ ›› [ᴀᴀᴅʜɪ](https://telegram.dog/AboutAadhi) | [ɪɴsᴛᴀɢʀᴀᴍ](https://www.instagram.com/aadhi.xr/) | [ɢɪᴛʜᴜʙ](GitHub.com/Aadhi000)</b>                                                                                                                                                                                    
-<b>ᴄʜᴀɴɴᴇʟ ›› [ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ](https://t.me/MWUpdatez)</b>
+## Credits 
+* [![Zaute-Km](https://img.shields.io/static/v1?label=Dingdi-Dev&message=devs&color=critical)](https://telegram.dog/zautebot)
+
+
+## Thanks to 
+ - Thanks To Dan For His Awsome [Libary](https://github.com/pyrogram/pyrogram)
+ - Thanks To Mahesh For His Awesome [Media-Search-bot](https://github.com/Mahesh0253/Media-Search-bot)
+ - Thanks To [Trojanz](https://github.com/trojanzhex) for Their Awesome [Unlimited Filter Bot](https://github.com/TroJanzHEX/Unlimited-Filter-Bot) And [AutoFilterBoT](https://github.com/trojanzhex/auto-filter-bot)
+ - Thanks To All Everyone In This Journey
+
+## Disclaimer
+[![GNU Affero General Public License 3.0](https://www.gnu.org/graphics/agplv3-155x51.png)](https://www.gnu.org/licenses/agpl-3.0.en.html#header)    
+Licensed under [GNU AGPL 3.0.](https://github.com/ZauteKm/Dingdi/blob/master/LICENSE)
+Selling The Codes To Other People For Money Is *Strictly Prohibited*.
